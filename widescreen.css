@@ -18,11 +18,11 @@ main{
     margin: auto;
     background-color: white;
     background-image: url(/images/bg-pattern-desktop.svg);
-    background-size: 935px auto;
+    background-size: 940px auto;
     background-repeat: no-repeat;
     background-position: 425% 65%;
     border-radius: 25px;
-    box-shadow: 0px 35px 50px -15px rgb(69, 51, 134);
+    box-shadow: 0px 35px 50px -15px rgb(69 51 134);
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 2em;
@@ -33,33 +33,32 @@ main{
 }
 h1{
     font-family: 'Kumbh Sans', sans-serif;
-    margin:0 0 40px 0;
     color: hsl(238, 29%, 16%);
 }
 
 .box{
     position: absolute;
-    top: 203px;
+    top: 197px;
     left: -85px;
     width: 46%;
 }
 ul{
-    font-family: 'Red Hat Display', sans-serif;
     list-style: none;
     padding: 0px;
     margin: 0 0 20px 0;
 }
 li{
     height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .QQ{
     font-size: 12px;
-    background: url(/images/icon-arrow-down.svg) no-repeat;
-    background-position: 95% 50%;
-    padding: 15px 0px;
+    /* background: url(/images/icon-arrow-down.svg) no-repeat;
+    background-position: 95% 50%; */
+    padding: 15px 0px 10px 0;
     border-bottom: solid 1px hsl(240, 5%, 91%);
-    width: 80%;
     color:hsl(237, 12%, 33%) ;
+    width: 80%;
 }
 .AA{
     font-size: 12px;
@@ -71,12 +70,36 @@ li{
     position: relative;
     background: url(/images/illustration-woman-online-desktop.svg) no-repeat;
     height: 100%;
-    background-position: 155% center;
-    background-size: 430px auto;
+    background-position: 135% 46%;
+    background-size: 440px auto;
 }
 
 .Text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+button{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border: none;
+    background-color: none;
+    background-color: transparent;
+    padding: 0 0 10px 0;
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(237, 12%, 33%) ;
+
+}
+
+.arrow{
+    justify-self: center;
+    align-self: center;
+}
+
+.woman{
+    display: none;
 }

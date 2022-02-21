@@ -10,7 +10,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" media="screen and (min-width:1025px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width:1024px)" href="smallscreen.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | FAQ Accordion Card</title>
@@ -23,46 +24,49 @@
     <div class="images">
       <aside>
         <img class="box" src="images/illustration-box-desktop.svg" alt="box">
-        <!-- <img class="woman" src="images/illustration-woman-online-desktop.svg" alt="woman"> -->
+        <img class="woman" src="images/illustration-woman-online-mobile.svg" alt="woman">
       </aside>
     </div>
     <div class="Text">
       <section>
         <h1>FAQ</h1>
         <ul class="questions">
-          <li class="QQ"> How many team members can I invite?
-            <br><span class="AA"> You can invite up to 2 additional users on the Free plan. There is no limit on
-              team members for the Premium plan.</span>
+          <li class="QQ"><button class="QQbtn"> How many team members can I invite? <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow"></button>
+            <div class="AA"> You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.</div>
           </li>
 
-          <li class="QQ"> What is the maximum file upload size?
-            <br><span class="AA"> No more than 2GB. All files in your account must fit your allotted storage space.</span>
+          <li class="QQ"><button class="QQbtn"> What is the maximum file upload size?<img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow"></button>
+            <div class="AA"> No more than 2GB. All files in your account must fit your allotted storage space.</div>
 
           </li>
 
-          <li class="QQ">How do I reset my password?
-            <br><span class="AA"> Click “Forgot password” from the login page or “Change password” from your profile page.
-              A reset link will be emailed to you.</span>
+          <li class="QQ"><button class="QQbtn">How do I reset my password?<img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow"></button>
+            <div class="AA"> Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</div>
           </li>
 
-          <li class="QQ">Can I cancel my subscription?
-            <br><span class="AA">Yes! Send us a message and we’ll process your request no questions asked.
-            </span>
+          <li class="QQ"><button class="QQbtn">Can I cancel my subscription?<img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow"></button>
+            <div class="AA">Yes! Send us a message and we’ll process your request no questions asked.
+            </div>
           </li>
 
-          <li class="QQ"> Do you provide additional support?
-            <br><span class="AA">Chat and email support is available 24/7. Phone lines are open during normal business
-              hours.</span>
+          <li class="QQ"><button class="QQbtn">Do you provide additional support?<img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow"></button>
+            <div class="AA">Chat and email support is available 24/7. Phone lines are open during normal business
+              hours.</div>
           </li>
 
         </ul>
       </section>
     </div>
   </main>
+  <script src="FAQ.js"></script>
+  </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Sunny Zhu</a>.
-  </div>
-</body>
+</body>\
+
 
 </html>

@@ -1,0 +1,103 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: linear-gradient(360deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+
+}
+
+main{
+    margin: 110px auto auto auto;
+    background-color: white;
+    background-image: url(/images/bg-pattern-mobile.svg);
+    background-size: 210px auto;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 35px 50px -15px rgb(69 51 134);
+    display: grid;
+    grid-template-rows: 20% 1fr;
+    max-width: 350px;
+    height: 75%;
+    width: 80%;
+    min-width: 300px;
+    
+}
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.box{
+    display: none;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0 25px 10px 25px;
+}
+li{
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.QQ{
+    font-size: 12px;
+    /* background: url(/images/icon-arrow-down.svg) no-repeat;
+    background-position: 95% 50%; */
+    padding: 15px 0px 10px 0;
+    border-bottom: solid 1px hsl(240, 5%, 91%);
+    width: 100%;
+}
+.AA{
+    font-size: 12px;
+    color:hsl(240, 6%, 50%);
+    display: none;
+}
+
+.images{
+    position: relative;
+    height: 100%;
+}
+
+.Text{
+    justify-self: center;
+    width: 100%;
+}
+
+button{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border: none;
+    background-color: none;
+    background-color: transparent;
+    padding: 0 0 10px 0;
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12.5px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(237, 12%, 33%);
+}
+
+.arrow{
+    justify-self: end;
+    align-self: center;
+}
+
+.woman{
+    width: 70%;
+    position: absolute;
+    top: -96px;
+    right: 45px;
+}
