@@ -17,7 +17,7 @@ html{
 main{
     margin: auto;
     background-color: white;
-    background-image: url(/images/bg-pattern-desktop.svg);
+    background-image: url(images/bg-pattern-desktop.svg);
     background-size: 940px auto;
     background-repeat: no-repeat;
     background-position: 425% 65%;
@@ -68,7 +68,7 @@ li{
 
 .images{
     position: relative;
-    background: url(/images/illustration-woman-online-desktop.svg) no-repeat;
+    background: url(images/illustration-woman-online-desktop.svg) no-repeat;
     height: 100%;
     background-position: 135% 46%;
     background-size: 440px auto;

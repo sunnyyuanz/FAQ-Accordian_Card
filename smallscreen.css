@@ -16,7 +16,7 @@ html,body{
 main{
     margin: 110px auto auto auto;
     background-color: white;
-    background-image: url(/images/bg-pattern-mobile.svg);
+    background-image: url(images/bg-pattern-mobile.svg);
     background-size: 210px auto;
     background-position: 50% 0%;
     background-repeat: no-repeat;
