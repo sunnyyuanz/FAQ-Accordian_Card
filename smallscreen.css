@@ -51,7 +51,7 @@ li{
     height: 100%;
     font-family: 'Red Hat Display', sans-serif;
 }
-.QQ{
+.question{
     font-size: 12px;
     /* background: url(/images/icon-arrow-down.svg) no-repeat;
     background-position: 95% 50%; */
@@ -59,7 +59,7 @@ li{
     border-bottom: solid 1px hsl(240, 5%, 91%);
     width: 100%;
 }
-.AA{
+.answer{
     font-size: 11px;
     color:hsl(240, 6%, 50%);
     display: none;
