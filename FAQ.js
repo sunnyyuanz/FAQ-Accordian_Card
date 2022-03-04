@@ -9,7 +9,6 @@ function FAQ() {
 
         question.addEventListener('click', function () {
             Checkanswersopen()
-            // TODO: create a function that will iterate through all buttons and set them to the "closed" state
             if (answer.style.display == 'block') {
                 answer.style.display = 'none'
                 question.style.fontWeight = '400'
