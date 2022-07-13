@@ -102,3 +102,15 @@ button{
     top: -96px;
     right: 45px;
 }
+
+.question.open .qBtn{
+    font-weight: 700;
+}
+
+.question.open .arrow{
+    transform: rotate(180deg);
+}
+
+.question.open .answer{
+    display: block;
+}
